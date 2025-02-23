@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h> // Para strcspn
 
 int main() {
     printf("Desafio Super Trunfo\n");
@@ -24,6 +23,9 @@ int main() {
 
     // Cadastro da Carta 1
     printf("\nCarta 1\n");
+
+    //Imprimir e scanear dados do usuario da carta 1
+
     printf("Estado da carta (A a H): \n");
     scanf(" %c", &estado1);
 
@@ -47,6 +49,10 @@ int main() {
     
     // Cadastro da Carta 2
     printf("\nCarta 2\n");
+
+    //Imprimir e scanear dados do usuario da carta 2
+
+
     printf("Estado da carta (A a H): \n");
     scanf(" %c", &estado2);
    
